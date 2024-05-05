@@ -1,4 +1,5 @@
 # EcoBrains Sensor
+By @benjamin
 
 # Intro
 This repository contains the source code for a waste analysis sensor system developed by @benjamin. 
@@ -33,5 +34,5 @@ The system relies on the following dependencies:
 # Contributing
 Contributions to the waste analysis sensor system are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
