@@ -36,7 +36,7 @@ The system relies on the following dependencies:
 * [curl](https://github.com/curl/curl): A library for transferring data with URLs.
 
 # Source Code
-You can download it [here](main.c)
+You can see the [Source Code](main.c) file for details.
 ```c
 // Author: @benjamin 
 
