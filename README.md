@@ -27,8 +27,8 @@ To use the waste analysis sensor system:
 # Dependencies
 The system relies on the following dependencies:
 
-* cJSON: A lightweight JSON parser for C.
-* libcurl: A library for transferring data with URLs.
+* [cJSON](https://github.com/DaveGamble/cJSON): A lightweight JSON parser for C.
+* [curl](https://github.com/curl/curl): A library for transferring data with URLs.
   
 # Contributing
 Contributions to the waste analysis sensor system are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
