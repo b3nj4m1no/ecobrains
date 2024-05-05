@@ -21,7 +21,7 @@ To use the waste analysis sensor system:
 
 * Compile the Code: Compile the source code using a C compiler such as GCC.
   
-  ```c
+  ```
   gcc -o ecoBrains-Sensor main.c
   ```
 
