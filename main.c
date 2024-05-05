@@ -9,6 +9,7 @@
 #include <curl/curl.h>
 
 // My Libraries
+#include <sensorIdentificator> // Code to identify which sensor call APIs
 #include <structWaste> // Waste object contain char type[20] and int quantity
 #include <sensorData>  // Function to read data from sensor
 #include <URLecobrainsPortal> // Url to website portal with data
@@ -33,6 +34,7 @@ void send_report_to_webserver(Waste waste) {
     if (curl) {
         curl_easy_setopt(curl, CURLOPT_URL, URLecobrainsPortal + "/api/report/submit_report");
         curl_easy_setopt(curl, CURLOPT_POSTFIELDS, data);
+        curl_easy_setopt(curl, sensorIdentificator); // Identify which sensor
         res = curl_easy_perform(curl);
         if (res != CURLE_OK)
             fprintf(stderr, "Error sending report: %s\n", curl_easy_strerror(res));
@@ -55,4 +57,3 @@ int main() {
 
     return 0;
 }
-
