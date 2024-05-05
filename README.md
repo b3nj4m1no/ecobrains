@@ -20,7 +20,12 @@ Flexible Reporting Schedule: The reporting schedule can be customized using envi
 To use the waste analysis sensor system:
 
 * Compile the Code: Compile the source code using a C compiler such as GCC.
-* onfigure Environment Variables: Set environment variables for the reporting schedule and the URL of the web server portal.
+  
+  ```c
+  gcc -o ecoBrains-Sensor main.c
+  ```
+
+* Configure Environment Variables: Set environment variables for the reporting schedule and the URL of the web server portal.
 * Deploy the Sensor System: Deploy the sensor system in the desired location for waste analysis.
 * Monitor and Analyze Data: Monitor the sensor system's performance and analyze the collected data using the web server portal.
   
