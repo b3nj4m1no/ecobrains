@@ -1,5 +1,4 @@
 # EcoBrains Sensor
-By @benjamin
 
 # Intro
 This repository contains the source code for a waste analysis sensor system developed by @benjamin. 
